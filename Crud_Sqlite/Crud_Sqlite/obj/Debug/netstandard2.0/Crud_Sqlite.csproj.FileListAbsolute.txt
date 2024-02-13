@@ -17,3 +17,4 @@ C:\Users\rober\Escritorio\semaestre\programacion movil\Crud_Sqlite\Crud_Sqlite\C
 C:\Users\rober\Escritorio\semaestre\programacion movil\Crud_Sqlite\Crud_Sqlite\Crud_Sqlite\obj\Debug\netstandard2.0\refint\Crud_Sqlite.dll
 C:\Users\rober\Escritorio\semaestre\programacion movil\Crud_Sqlite\Crud_Sqlite\Crud_Sqlite\obj\Debug\netstandard2.0\Crud_Sqlite.pdb
 C:\Users\rober\Escritorio\semaestre\programacion movil\Crud_Sqlite\Crud_Sqlite\Crud_Sqlite\obj\Debug\netstandard2.0\View\EditarClienteView.xaml.g.cs
+C:\Users\rober\Escritorio\semaestre\programacion movil\Crud_Sqlite\Crud_Sqlite\Crud_Sqlite\obj\Debug\netstandard2.0\View\LoginView.xaml.g.cs

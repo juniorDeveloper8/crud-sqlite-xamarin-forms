@@ -45,19 +45,6 @@ namespace Crud_Sqlite.ViewModels
             await _navigation.PushAsync(new AgregarClienteView(_clienteRepository));
         }
 
-        //public async Task CargarClientes()
-        //{
-        //    var clientes = await _clienteRepository.getClientesAsync();
-        //    Device.BeginInvokeOnMainThread(() =>
-        //    {
-        //        Clientes.Clear();
-        //        foreach (var cliente in clientes)
-        //        {
-        //            Clientes.Add(cliente);
-        //        }
-        //    });
-        //}
-
         public async Task CargarClientes()
         {
             try

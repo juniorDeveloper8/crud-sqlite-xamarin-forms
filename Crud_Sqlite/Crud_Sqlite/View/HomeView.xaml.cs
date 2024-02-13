@@ -63,9 +63,9 @@ namespace Crud_Sqlite.View
                 case "Eliminar Cliente":
                     await EliminarCliente();
                     break;
-                //case "Salir":
-                //    await Navigation.PushAsync(new LoginView());
-                //    break;
+                case "Salir":
+                    await Navigation.PopToRootAsync();
+                    break;
             }
         }
 
