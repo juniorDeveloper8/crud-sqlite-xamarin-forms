@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Crud_Sqlite.View.EditarClienteView">
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            <!-- Campos de edición -->
+            <Entry Placeholder="Nombre" x:Name="NombreEntry" />
+            <Entry Placeholder="Apellido" x:Name="ApellidoEntry" />
+            <Entry Placeholder="Correo electrónico" x:Name="CorreoEntry" />
+            <Entry Placeholder="Contraseña" IsPassword="True" x:Name="PswEntry" />
+
+
+            <!-- Botón para guardar cambios -->
+            <Button Text="Actualizar Datos" Clicked="Guardar_Clicked" BackgroundColor="#007bff" TextColor="White" CornerRadius="5" Margin="0,20,0,0"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

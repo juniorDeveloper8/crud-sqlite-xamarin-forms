@@ -5,7 +5,7 @@ VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crud_Sqlite.Android", "Crud_Sqlite\Crud_Sqlite.Android\Crud_Sqlite.Android.csproj", "{1CC84002-7216-4E4A-A5D4-AB0AB1230D9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crud_Sqlite", "Crud_Sqlite\Crud_Sqlite\Crud_Sqlite.csproj", "{940C9F84-CAD1-4927-B021-D67107BF6B5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crud_Sqlite", "Crud_Sqlite\Crud_Sqlite\Crud_Sqlite.csproj", "{940C9F84-CAD1-4927-B021-D67107BF6B5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

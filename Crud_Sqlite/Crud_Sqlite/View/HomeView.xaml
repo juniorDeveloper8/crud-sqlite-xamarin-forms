@@ -1,0 +1,27 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Crud_Sqlite.View.HomeView"
+             Title="Clientes">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Opciones" Priority="0" Order="Primary" Clicked="OnToolbarItemClicked"/>
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            <Label Text="Lista de Clientes" FontSize="Large" HorizontalOptions="Center" Margin="0,10,0,5" />
+            <ListView x:Name="ClientesListView" ItemsSource="{Binding Clientes}" SelectedItem="{Binding SelectedCliente}" HasUnevenRows="True" Margin="10">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Padding="10" BackgroundColor="#f0f0f0" Margin="0,5">
+                                <Label Text="{Binding nombre}" FontSize="Medium" FontAttributes="Bold"/>
+                                <Label Text="{Binding apellido}" FontSize="Small" FontAttributes="Bold"/>
+                                <Label Text="{Binding correo}" FontSize="Small" FontAttributes="Bold"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
