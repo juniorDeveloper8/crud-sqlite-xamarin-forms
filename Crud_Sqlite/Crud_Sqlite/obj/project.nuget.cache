@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "eqLGp9xgxAx3Ygl86qqcRZMaXvb1DBMfEv67fBXsIK6WH1Ch3a9dE7L1EJJ1oEmEBk7KJLV4fJP6nF77DlnQ0A==",
+  "dgSpecHash": "6fbWtbaBy2THzhb2EvWK757KZrlFZtzQARkmUwYHlUNN8VNplHlp1+yXVx0tPFPBraXhCVmsuXub67Jl/sX7XQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\rober\\Escritorio\\semaestre\\programacion movil\\Crud_Sqlite\\Crud_Sqlite\\Crud_Sqlite\\Crud_Sqlite.csproj",
   "expectedPackageFiles": [
@@ -16,8 +16,9 @@
     "C:\\Users\\rober\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\rober\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\rober\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
-    "C:\\Users\\rober\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\rober\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\rober\\.nuget\\packages\\xamarin.essentials\\1.8.1\\xamarin.essentials.1.8.1.nupkg.sha512",
+    "C:\\Users\\rober\\.nuget\\packages\\xamarin.forms\\5.0.0.2622\\xamarin.forms.5.0.0.2622.nupkg.sha512",
+    "C:\\Users\\rober\\.nuget\\packages\\xamarin.forms.visual.material\\5.0.0.2622\\xamarin.forms.visual.material.5.0.0.2622.nupkg.sha512"
   ],
   "logs": []
 }

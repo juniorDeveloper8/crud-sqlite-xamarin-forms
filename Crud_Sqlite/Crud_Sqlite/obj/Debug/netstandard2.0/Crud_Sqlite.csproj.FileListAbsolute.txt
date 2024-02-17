@@ -7,7 +7,9 @@ C:\Users\rober\Escritorio\semaestre\programacion movil\Crud_Sqlite\Crud_Sqlite\C
 C:\Users\rober\Escritorio\semaestre\programacion movil\Crud_Sqlite\Crud_Sqlite\Crud_Sqlite\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\rober\Escritorio\semaestre\programacion movil\Crud_Sqlite\Crud_Sqlite\Crud_Sqlite\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\rober\Escritorio\semaestre\programacion movil\Crud_Sqlite\Crud_Sqlite\Crud_Sqlite\obj\Debug\netstandard2.0\View\AgregarClienteView.xaml.g.cs
+C:\Users\rober\Escritorio\semaestre\programacion movil\Crud_Sqlite\Crud_Sqlite\Crud_Sqlite\obj\Debug\netstandard2.0\View\EditarClienteView.xaml.g.cs
 C:\Users\rober\Escritorio\semaestre\programacion movil\Crud_Sqlite\Crud_Sqlite\Crud_Sqlite\obj\Debug\netstandard2.0\View\HomeView.xaml.g.cs
+C:\Users\rober\Escritorio\semaestre\programacion movil\Crud_Sqlite\Crud_Sqlite\Crud_Sqlite\obj\Debug\netstandard2.0\View\LoginView.xaml.g.cs
 C:\Users\rober\Escritorio\semaestre\programacion movil\Crud_Sqlite\Crud_Sqlite\Crud_Sqlite\obj\Debug\netstandard2.0\Crud_Sqlite.AssemblyInfoInputs.cache
 C:\Users\rober\Escritorio\semaestre\programacion movil\Crud_Sqlite\Crud_Sqlite\Crud_Sqlite\obj\Debug\netstandard2.0\Crud_Sqlite.AssemblyInfo.cs
 C:\Users\rober\Escritorio\semaestre\programacion movil\Crud_Sqlite\Crud_Sqlite\Crud_Sqlite\obj\Debug\netstandard2.0\Crud_Sqlite.csproj.CoreCompileInputs.cache
@@ -16,5 +18,3 @@ C:\Users\rober\Escritorio\semaestre\programacion movil\Crud_Sqlite\Crud_Sqlite\C
 C:\Users\rober\Escritorio\semaestre\programacion movil\Crud_Sqlite\Crud_Sqlite\Crud_Sqlite\obj\Debug\netstandard2.0\Crud_Sqlite.dll
 C:\Users\rober\Escritorio\semaestre\programacion movil\Crud_Sqlite\Crud_Sqlite\Crud_Sqlite\obj\Debug\netstandard2.0\refint\Crud_Sqlite.dll
 C:\Users\rober\Escritorio\semaestre\programacion movil\Crud_Sqlite\Crud_Sqlite\Crud_Sqlite\obj\Debug\netstandard2.0\Crud_Sqlite.pdb
-C:\Users\rober\Escritorio\semaestre\programacion movil\Crud_Sqlite\Crud_Sqlite\Crud_Sqlite\obj\Debug\netstandard2.0\View\EditarClienteView.xaml.g.cs
-C:\Users\rober\Escritorio\semaestre\programacion movil\Crud_Sqlite\Crud_Sqlite\Crud_Sqlite\obj\Debug\netstandard2.0\View\LoginView.xaml.g.cs

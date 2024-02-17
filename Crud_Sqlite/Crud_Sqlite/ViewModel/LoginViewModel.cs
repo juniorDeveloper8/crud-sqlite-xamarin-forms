@@ -55,8 +55,8 @@ namespace Crud_Sqlite.ViewModels
             else
             {
 
-                IsBusy = true;
 
+                IsBusy = true;
                 bool loginExitoso = await ValidarCredenciales();
 
                 IsBusy = false;

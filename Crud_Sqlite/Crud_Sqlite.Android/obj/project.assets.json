@@ -1841,6 +1841,26 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Visual.Material/5.0.0.2622": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Lifecycle.LiveData": "[2.3.1.1, 2.7.0)",
+          "Xamarin.Google.Android.Material": "[1.4.0.2, 1.9.0)"
+        },
+        "compile": {
+          "lib/MonoAndroid13.0/Xamarin.Forms.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/MonoAndroid13.0/Xamarin.Forms.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "build": {
+          "buildTransitive/MonoAndroid13/Xamarin.Forms.Visual.Material.targets": {}
+        }
+      },
       "Xamarin.Google.Android.Material/1.4.0.2": {
         "type": "package",
         "dependencies": {
@@ -1903,8 +1923,9 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
-          "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196",
+          "Xamarin.Essentials": "1.8.1",
+          "Xamarin.Forms": "5.0.0.2622",
+          "Xamarin.Forms.Visual.Material": "5.0.0.2622",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -3648,6 +3669,30 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "Xamarin.Forms.Visual.Material/5.0.0.2622": {
+      "sha512": "2i5zD9c2vyCblnNETaEW7euo1E26UebHcxvdoPkHoLEdUOo0smAMXUbUiP1C3VHeLEPEsFFsAf2KR5L9rDTEsQ==",
+      "type": "package",
+      "path": "xamarin.forms.visual.material/5.0.0.2622",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Assets/xamarin_128x128.png",
+        "Licenses/LICENSE",
+        "Licenses/THIRD-PARTY-NOTICES.txt",
+        "build/MonoAndroid13/Xamarin.Forms.Visual.Material.targets",
+        "buildTransitive/MonoAndroid13/Xamarin.Forms.Visual.Material.targets",
+        "lib/MonoAndroid13.0/Xamarin.Forms.Material.dll",
+        "lib/MonoAndroid13.0/Xamarin.Forms.Material.pdb",
+        "lib/MonoAndroid13/_._",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Material.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Material.pdb",
+        "lib/netstandard1.0/_._",
+        "lib/tizen40/Xamarin.Forms.Material.dll",
+        "lib/tizen40/Xamarin.Forms.Material.pdb",
+        "xamarin.forms.visual.material.5.0.0.2622.nupkg.sha512",
+        "xamarin.forms.visual.material.nuspec"
+      ]
+    },
     "Xamarin.Google.Android.Material/1.4.0.2": {
       "sha512": "2dH8pSYjlVmZk8E64E6/hZzsoTcubsH1DHLMYpnsXnteqVuFU42uG5pIuJZIOcLxgKX/QjLdMzth6/w+Oje8sQ==",
       "type": "package",
@@ -3699,7 +3744,8 @@
     "MonoAndroid,Version=v13.0": [
       "Crud_Sqlite >= 1.0.0",
       "Xamarin.Essentials >= 1.7.0",
-      "Xamarin.Forms >= 5.0.0.2196"
+      "Xamarin.Forms >= 5.0.0.2196",
+      "Xamarin.Forms.Visual.Material >= 5.0.0.2622"
     ]
   },
   "packageFolders": {
@@ -3751,9 +3797,35 @@
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[5.0.0.2196, )"
+          },
+          "Xamarin.Forms.Visual.Material": {
+            "target": "Package",
+            "version": "[5.0.0.2622, )"
           }
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Degradación del paquete detectada: Xamarin.Essentials de 1.8.1 a 1.7.0. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n Crud_Sqlite.Android -> Crud_Sqlite -> Xamarin.Essentials (>= 1.8.1) \r\n Crud_Sqlite.Android -> Xamarin.Essentials (>= 1.7.0)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "MonoAndroid,Version=v13.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Degradación del paquete detectada: Xamarin.Forms de 5.0.0.2622 a 5.0.0.2196. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n Crud_Sqlite.Android -> Crud_Sqlite -> Xamarin.Forms (>= 5.0.0.2622) \r\n Crud_Sqlite.Android -> Xamarin.Forms (>= 5.0.0.2196)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "MonoAndroid,Version=v13.0"
+      ]
+    }
+  ]
 }
